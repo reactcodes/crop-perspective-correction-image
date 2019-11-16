@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Crop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="background" class="o_image">
+            <img id="sample" src="bill.png" alt="bill" />
+            <span>©reactcodes blog</span>
+        </div>
+        <div class="p_image">
+            <canvas id="imageInit"></canvas>
+            <canvas id="imageResult"></canvas>
+        </div>
+    </div>
+    <div class="b_container">
+        <button id="apply">Apply</button>
+    </div>
+</body>
+<script src="./libs/qunit-2.0.1.js" type="text/javascript"></script>
+<script src="utils.js" type="text/javascript"></script>
+<script src="perspective.js" type="text/javascript"></script>
+<script src="./libs/d3.v3.min.js"></script>
+<script src="./libs/numeric-solve.min.js"></script>
+<script src="./index.js"></script>
+</html>
+
+<!-- <div class="p_image">
+    <canvas id="imageInit"></canvas>
+</div>
+<div class="b_container">
+    <button id="apply">Apply</button>
+</div> -->
