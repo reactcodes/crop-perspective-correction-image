@@ -49,7 +49,7 @@ function Utils(errorOutputId) { // eslint-disable-line no-unused-vars
             canvas.height = img.height;
             console.log('img.height : ' + img.height + ' img.width : ' + img.width);
             //ctx.drawImage(img, 0, 0, 300, 400);
-            ctx.drawImage(img, 0, 0, img.height, img.width);
+            ctx.drawImage(img, 0, 0, img.width, img.height);
         };
         img.src = url;
     };
